@@ -1,0 +1,10 @@
+Iteration	26837.0
+Pyridine	0.3
+Aldehyde	0.3
+Isocyanide	0.3
+Temperature	80.0
+Solvent	0.1
+Catalyst	10.0
+Time	15.0
+Prediction	29.646999999999995
+Variance	0.8750910000000008
