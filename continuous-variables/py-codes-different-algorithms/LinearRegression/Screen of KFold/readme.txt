@@ -1,0 +1,1 @@
+Regardless of the value of KFold, though model_parameters would be different under every KFold value, the predictions are identical and the same with n_MAE.

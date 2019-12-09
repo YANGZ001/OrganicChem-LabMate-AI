@@ -1,0 +1,6 @@
+1. Using the data set(file: train_data.txt) to run the program.
+2. Search for the prediction of reaction #11 of the Table S1. in the newly-formed file: predictions.txt
+3. Compare the prediction value with the actual value given in the Table S1 and record it in the excel.
+4. Add the actual value of reaction #11 into the file: train_data.txt
+5. Run the programmes again and compare the result of reaction #12.
+6. Repeat till the end of Table S1.

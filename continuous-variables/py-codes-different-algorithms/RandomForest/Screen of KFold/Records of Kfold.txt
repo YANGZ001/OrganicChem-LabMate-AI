@@ -1,0 +1,290 @@
+Time starts at:  2019/07/26  10:32:58
+
+
+Find the best parameters:
+KFoldCV = 2, best_score: -3.8821183033109814, best_params:{'max_depth': 1, 'max_features': 'auto', 'n_estimators': 604}
+Feature_importances:                Feature_importances
+base                      0.812914
+i_PrOH                    0.142384
+Ligan2Metal               0.023179
+2meth                     0.013245
+Cat                       0.004967
+Time                      0.003311
+nap                       0.000000
+Temperature               0.000000
+concentration             0.000000
+
+
+Neg_MAE: -8.189547335353545
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55    8.822868  19.162812
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55    8.767003  19.344107
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65    8.734882  19.483450
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55    8.734882  19.483450
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55   11.006090   4.522136
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65   11.038211   4.236885
+
+
+You are awesome! Man!
+
+
+2019/07/26  10:36:16
+
+
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\model_selection\_search.py:813: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+KFoldCV = 3, best_score: -3.1194943808480406, best_params:{'max_depth': 1, 'max_features': 'auto', 'n_estimators': 73}
+Feature_importances:                Feature_importances
+base                      0.835616
+i_PrOH                    0.123288
+Ligan2Metal               0.041096
+nap                       0.000000
+2meth                     0.000000
+Cat                       0.000000
+Time                      0.000000
+Temperature               0.000000
+concentration             0.000000
+
+
+Neg_MAE: -8.240412557052336
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55    9.121295  19.631119
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55    8.706318  21.049308
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65    8.706318  21.049308
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55    8.706318  21.049308
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55   11.049111   5.864498
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65   11.049111   5.864498
+
+
+You are awesome! Man!
+
+
+2019/07/26  10:58:39
+
+
+KFoldCV = 4, best_score: -2.5746440470642167, best_params:{'max_depth': 2, 'max_features': 'auto', 'n_estimators': 94}
+Feature_importances:                Feature_importances
+base                      0.662819
+i_PrOH                    0.141066
+Ligan2Metal               0.092074
+Cat                       0.039197
+2meth                     0.032797
+concentration             0.021332
+Time                      0.008365
+Temperature               0.002349
+nap                       0.000000
+
+
+Neg_MAE: -7.630701831695091
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55    9.347044  33.617387
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55    9.141879  34.505869
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65    8.413497  33.951363
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55    7.607771  32.786823
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55   11.990088   9.128593
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65   12.750860   3.759248
+
+
+You are awesome! Man!
+
+
+2019/07/26  11:04:12
+
+
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\model_selection\_search.py:813: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+KFoldCV = 5, best_score: -2.973088823468333, best_params:{'max_depth': 3, 'max_features': 'auto', 'n_estimators': 10}
+Feature_importances:                Feature_importances
+base                      0.698753
+Ligan2Metal               0.097026
+Cat                       0.087623
+2meth                     0.077837
+i_PrOH                    0.035133
+Temperature               0.002772
+concentration             0.000616
+Time                      0.000240
+nap                       0.000000
+
+
+Neg_MAE: -7.516513782874075
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55    7.657136  33.319101
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55   13.542843  28.182860
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65   11.571421  45.832627
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55    9.114279  39.272591
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55   10.613309  12.623053
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65   12.156164   1.052195
+
+
+You are awesome! Man!
+
+
+2019/07/26  11:11:29
+
+
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\model_selection\_search.py:813: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+KFoldCV = 6, best_score: -2.910133061148289, best_params:{'max_depth': 1, 'max_features': 'auto', 'n_estimators': 10}
+Feature_importances:                Feature_importances
+base                           0.9
+Ligan2Metal                    0.1
+nap                            0.0
+2meth                          0.0
+Cat                            0.0
+i_PrOH                         0.0
+Time                           0.0
+Temperature                    0.0
+concentration                  0.0
+
+
+Neg_MAE: -8.300751845706243
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55   11.156079   5.203576
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55   10.165130  12.180143
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65   10.165130  12.180143
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55   10.165130  12.180143
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55   11.156079   5.203576
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65   11.156079   5.203576
+
+
+You are awesome! Man!
+
+
+2019/07/26  11:19:58
+
+
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\model_selection\_search.py:813: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+KFoldCV = 7, best_score: -3.219957346814012, best_params:{'max_depth': 3, 'max_features': 'sqrt', 'n_estimators': 31}
+Feature_importances:                Feature_importances
+base                      0.446681
+i_PrOH                    0.162543
+Cat                       0.093920
+Ligan2Metal               0.091820
+concentration             0.070724
+Time                      0.063349
+2meth                     0.040200
+Temperature               0.030762
+nap                       0.000000
+
+
+Neg_MAE: -8.570289541453791
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55    6.013804  36.762780
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55    6.567621  43.655782
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65    5.905257  38.022123
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55    4.741663  26.837581
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55    9.090665  26.842277
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65    8.895906  29.358059
+
+
+You are awesome! Man!
+
+
+2019/07/26  11:29:56
+
+
+KFoldCV = 8, best_score: -2.7464149337307324, best_params:{'max_depth': 4, 'max_features': 'auto', 'n_estimators': 73}
+Feature_importances:                Feature_importances
+base                      0.653017
+i_PrOH                    0.163300
+Ligan2Metal               0.108956
+2meth                     0.030595
+Cat                       0.019769
+concentration             0.014958
+Time                      0.005506
+Temperature               0.003899
+nap                       0.000000
+
+
+Neg_MAE: -8.066235639362864
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55   11.023707  49.085916
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55    9.115683  46.687911
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65    8.816858  45.678779
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55    8.189070  42.550474
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55   11.803489   7.937435
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65   12.205052   4.748718
+
+
+You are awesome! Man!
+
+
+2019/07/26  11:41:31
+
+
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\model_selection\_search.py:813: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+KFoldCV = 9, best_score: -2.694806927308634, best_params:{'max_depth': 2, 'max_features': 'auto', 'n_estimators': 10}
+Feature_importances:                Feature_importances
+base                      0.715682
+Ligan2Metal               0.169219
+2meth                     0.080191
+Cat                       0.029357
+i_PrOH                    0.003951
+Temperature               0.001517
+Time                      0.000083
+nap                       0.000000
+concentration             0.000000
+
+
+Neg_MAE: -7.273334098267424
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55   10.616414  31.949285
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55   10.376608  31.658334
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65   10.376608  31.658334
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55    8.614277  34.489916
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55   12.981596   1.313584
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65   12.981596   1.313584
+
+
+You are awesome! Man!
+
+
+2019/07/26  11:54:28
+
+
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\model_selection\_search.py:813: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+KFoldCV = 10, best_score: -2.66929996959162, best_params:{'max_depth': 2, 'max_features': 'auto', 'n_estimators': 10}
+Feature_importances:                Feature_importances
+base                      0.715682
+Ligan2Metal               0.169219
+2meth                     0.080191
+Cat                       0.029357
+i_PrOH                    0.003951
+Temperature               0.001517
+Time                      0.000083
+nap                       0.000000
+concentration             0.000000
+
+
+Neg_MAE: -7.273334098267424
+
+
+predictions and variance:     nap  2meth  Ligan2Metal   Cat  base  i_PrOH  Time  Temperature  concentration  Prediction   Variance
+0  0.15   0.25         0.90   5.0  1.25     1.2  18.0        140.0           0.55   10.616414  31.949285
+1  0.15   0.15         1.20  12.5  1.25     1.2  18.0        130.0           0.55   10.376608  31.658334
+2  0.15   0.15         1.20  10.0  1.25     1.2  16.0        140.0           0.65   10.376608  31.658334
+3  0.15   0.15         1.35   7.5  1.25     1.2  20.0        130.0           0.55    8.614277  34.489916
+4  0.15   0.15         1.05  10.0  2.00     1.8  20.0        130.0           0.55   12.981596   1.313584
+5  0.15   0.15         1.05  12.5  2.00     1.8  20.0        140.0           0.65   12.981596   1.313584
+
+
+You are awesome! Man!

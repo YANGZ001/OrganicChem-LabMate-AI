@@ -1,0 +1,2 @@
+	n_neighbors	p	weights
+0	1	1	distance

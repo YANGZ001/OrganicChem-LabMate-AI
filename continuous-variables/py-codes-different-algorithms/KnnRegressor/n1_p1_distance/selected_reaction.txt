@@ -1,0 +1,11 @@
+Iteration	95.0
+nap	0.15
+2meth	0.15
+Ligan2Metal	0.9
+Cat	5.0
+base	0.75
+i_PrOH	1.0
+Time	20.0
+Temperature	150.0
+concentration	0.25
+Prediction	17.71428571
