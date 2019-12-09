@@ -6,15 +6,15 @@ This repository contains codes for YangZhang's OrganicChem-LabMate-AI project. H
 
 Here is the reaction that I want to optimize.
 
-![Reactions](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20191209202816318.png "reacitons")
+![Reactions](reaction.png "reacitons")
 
 ## About the folders
 
-### -> **continuous-variables **
+### -> continuous-variables 
 
 File folder '**continuous -variable**' contains modified codes in different algorithms as well as the original one. The data **only** contains **continues** variables, i.e. the input are only **numerical**. This code  works only when your reagents are set, which means you should control the range of your input, e.g. the moles of your reagent, catalysts, the temperature and the solvents. 
 
-### -> **discrete-variables**
+### -> discrete-variables
 
 Since discrete variables are much more valuable than continuous in organic chemistry, my second stage work focused on using incorporating discrete variables. The method I use is one hot encoding. The dataset is available from supplementary material of this [literature]( https://science.sciencemag.org/content/359/6374/429  " A platform for automated nanomole-scale reaction screening and micromole-scale synthesis in flow ").
 
